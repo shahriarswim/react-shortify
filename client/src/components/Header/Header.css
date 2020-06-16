@@ -1,0 +1,42 @@
+.header {
+  background-color: #212121;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__heading {
+  padding: 2.5rem 5rem;
+}
+
+.header__link {
+  padding: 2.5rem 5rem;
+  color: #ff9800;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 750px) {
+  .header__heading {
+    padding: 1.5rem 3.5rem;
+    font-size: 1.5rem;
+  }
+
+  .header__link {
+    padding: 1.5rem 3.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__heading {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+
+  .header__link {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+}
